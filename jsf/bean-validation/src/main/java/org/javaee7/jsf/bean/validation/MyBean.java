@@ -15,7 +15,7 @@ import javax.validation.constraints.Size;
 @SessionScoped
 public class MyBean implements Serializable {
 
-    @Size(min = 3, message = "At least 3 characters")
+    @Size(min = 3, message = "At least 3 characters with jrebels")
     private String name;
 
     @Min(18)
